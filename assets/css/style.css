@@ -1,27 +1,146 @@
 
 header {
+    
     background: #ffffff;
+    border-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+.navigation {
+    margin-right: 15%;
+    float: right;
+    margin-top: -35px;
+}
+
+.navigation li {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 15px 0 0;
+}
+
+a {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+  }
+
+body {
+    background-image: url("/Users/ltswift/Documents/Basic-Portfolio/assets/images/qbkls.png");
 }
 
 h1 {
     color: white;
     text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 100%;
+    padding: 13px 0 13px 0;
+    margin-left: 15%;
 }
+
 h1, h2 {
     font-family: "Georgia", Times, Times New Roman, serif;   
+}
+
+main {
+    margin: 5% 15% 10% 15%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: #dddddd 
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+
 }
 
 h2 {
     color: #4aaaa5;
 }
 
-#logo {
-    border: #4aaaa5 solid;
-    box-sizing: border-box; width:15%;
-    background: #4aaaa5;
-
-}
-
 p {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 25px;
+    color: #777777;
 }
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/*--------contact form-------------*/
+
+ul {
+    list-style-type: none;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#name {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#message {
+    height: 300px; 
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+
+}
+
+/*------------portfolio-----------------*/
+
+.container {
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 30% 30% 30%;
+   grid-gap: 5px 5px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+figcaption {
+    width
+    height: 35px;
+    padding: 20px 0 15px 8px;
+    margin-top: -65px;
+    background-color: #4aaaa595;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    position: relative;
+
+}
+
+
