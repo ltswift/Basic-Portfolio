@@ -144,3 +144,33 @@ figcaption {
 }
 
 
+
+      @media screen and (max-width: 600px) {   
+      .navigation {
+          display: block;
+      }
+      
+        main {
+          padding: 5px;
+          margin: 2% 5% 10% 5%;
+          font-size: 15px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    footer {
+        height: 35px;
+    }
+     
+    .copyright {
+        font-size: 20px;
+        margin-top: 2px;
+        padding-top: 0px;
+
+    }
+      }
+    
